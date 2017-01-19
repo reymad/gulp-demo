@@ -1,0 +1,50 @@
+$ruta-img-estado-mision-carru           : '/themes/evocacion/images/cie/estado-mision-carrusel/';
+
+// Tamaños
+$ancho-site             :   1000px;
+$ancho-contenido        :   940px;
+$padding-contenido      :   ($ancho-site - $ancho-contenido)/2;
+$ancho-total            :   100%;
+$ancho-sidebar					:		250px;
+
+
+// Colores
+$color-destacado        :   #e60029;// change
+$color-destacado-alt    :   #c10033;
+$color-secundario       :   #d1d1c9;
+$color-secundario-alt   :   #e1e1e1;
+$color-texto            :   #393939;
+$color-text-destacado   :   #000000;
+$color-fondo-muyclaro   :   #f0f0f0;
+$color-fondo-claro      :   #e6e6e6;
+$color-fondo-oscuro     :   #bbbbbb;
+$color-blanco		:		#ffffff;
+$color-texto-modal      :   #797979;
+
+// Fuentes
+$fuente-titulos-bold    		:   Neo Sans W01 Bold, Verdana;
+$fuente-titulos-light   		:   Neo Sans W01, Verdana;
+$fuente-titulos-italic		  :   NeoSansW01-LightItalic, Verdana;
+$fuente-titulos-bold-italic	:   NeoSansW01-BoldItalic, Verdana;
+//$fuente                 	:   Verdana, Helvetica, sans-serif;
+$fuente                			: $fuente-titulos-light;
+$fuente-tamano          		:   12px;
+
+
+// Sprites
+// $iconos: sprite-map("iconos/*.png");
+$social: sprite-map("social/*.png");
+/* */
+
+// Modales
+$modal-fondo-opacity		:		0.8;
+$modal-fondo-color			:		$color-blanco;
+
+// Imports
+// @import "compass/css3";
+// @import "compass/utilities";
+
+// Mixins
+
+@import "mixins";
+
