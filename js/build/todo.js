@@ -1,0 +1,1 @@
+var sumar=function(n,r){return n+r},restar=function(n,r){return n-r};$(document).ready(function(n){console.log(sumar(10,25))});
